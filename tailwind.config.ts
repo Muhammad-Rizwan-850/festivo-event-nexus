@@ -65,12 +65,12 @@ export default {
 				},
 				// Custom Festivo colors
 				festivo: {
-					violet: '#8B5CF6',
-					'violet-dark': '#7C3AED',
-					seafoam: '#10B981',
-					'seafoam-light': '#34D399',
-					charcoal: '#374151',
-					'charcoal-light': '#4B5563'
+					violet: 'hsl(var(--festivo-violet))',
+					'violet-dark': 'hsl(var(--festivo-violet-dark))',
+					seafoam: 'hsl(var(--festivo-seafoam))',
+					'seafoam-light': 'hsl(var(--festivo-seafoam-light))',
+					charcoal: 'hsl(var(--festivo-charcoal))',
+					'charcoal-light': 'hsl(var(--festivo-charcoal-light))'
 				}
 			},
 			borderRadius: {
